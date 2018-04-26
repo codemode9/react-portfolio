@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Container, Row, Col } from 'reactstrap';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Containment from './components/Containment';

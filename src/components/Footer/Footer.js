@@ -10,8 +10,8 @@ const Footer = Footer => <footer className="foot">
             <h4 className="lowerlogo">Me, Myself and I ©</h4>
         </Col>
         <Col md="8" className="peeps">
-            <a href={"https://github.com/codemode9"} className="gitlinks" target="_blank">Linkedin</a><br></br>
-            <a href={"https://github.com/ianhawkoh"} className="gitlinks" target="_blank">Github</a><br></br>
+            {/* <a href={"https://github.com/codemode9"} className="gitlinks" target="_blank">Linkedin</a><br></br>
+            <a href={"https://github.com/ianhawkoh"} className="gitlinks" target="_blank">Github</a><br></br> */}
         </Col>
         <Col md="2">
         <div>

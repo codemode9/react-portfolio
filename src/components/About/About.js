@@ -5,15 +5,15 @@ import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 const About = (props) => {
   return (
-    <Row>
-      <Col>
-        <Card body>
-          <CardTitle>Contact</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Go somewhere</Button>
+    
+      
+      <Card body className='aboutbox'>
+        <img src={require('../../images/linkedin.png')} className='kity' style={{width: 65, height: 65}}></img>
+        <img src={require('../../images/octocat.png')} className='kity' style={{width: 150, height: 100}}></img>
         </Card>
-      </Col>
-    </Row>
+      
+     
+    
   );
 };
 

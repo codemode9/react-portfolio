@@ -12,7 +12,7 @@ const Containment = (props) => {
               <Col md='9'>
                 <About />
               </Col>
-              <Col md='3'>
+              <Col>
                 <Side />
               </Col>
           </Row>

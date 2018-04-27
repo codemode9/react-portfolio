@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Containment from './components/Containment';
+import Containmenttwo from "./components/Containmenttwo";
 import Side from './components/Side';
 import './App.css';
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
         <Route exact path='/' component={Landing} />
         </Switch>
       </Router> */}
-      <Containment />
+      <Containmenttwo />
       <Footer />
       </div>
     );

@@ -5,3 +5,17 @@
 .nameInput {
     width: 500px;
 }
+
+.nameTag {
+    font-weight: bold;
+}
+
+.emailTag {
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.msgTag {
+    font-weight: bold;
+    margin-top: 5%;
+}

@@ -12,5 +12,13 @@
     border-bottom-right-radius:50%;
     border-top-left-radius:50%;
     border-top-right-radius:50%;
+}
 
+.textile {
+    text-indent: 5%;
+}
+
+.waddup {
+    font-style: oblique;
+    text-align: center;
 }

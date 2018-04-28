@@ -10,12 +10,11 @@ const About = (props) => {
       <Card body className='aboutbox'>
       <div>
                 <img src={require('../../images/download.png')} className='picky' style={{width: 253, height: 450}}></img>
-                <p className='textile'>Bacon ipsum dolor amet bresaola filet mignon pork belly porchetta salami tri-tip. Ground round bacon picanha strip steak alcatra bresaola. Tenderloin rump ham cupim beef ribs, pork loin boudin biltong alcatra jowl kevin picanha shoulder. Jerky meatloaf meatball pork loin prosciutto, landjaeger spare ribs ribeye pig pork belly pork chop andouille. Pork sirloin alcatra jowl kielbasa capicola landjaeger meatloaf. Hamburger doner shankle, brisket venison sausage jerky. Drumstick spare ribs biltong boudin.
-
-Short loin salami cupim tri-tip burgdoggen pork loin rump strip steak ground round. Tri-tip doner shankle tail kielbasa, ham hock ham tongue corned beef ball tip cupim pancetta strip steak pork chop. Landjaeger ground round meatloaf tail t-bone. Shankle pork flank tail prosciutto leberkas shoulder frankfurter. Porchetta jowl brisket biltong ground round. Spare ribs pork loin jerky, boudin ribeye cupim tenderloin beef ribs tri-tip. Spare ribs frankfurter pig tenderloin, venison meatball beef.
-Bacon ipsum dolor amet bresaola filet mignon pork belly porchetta salami tri-tip. Ground round bacon picanha strip steak alcatra bresaola. Tenderloin rump ham cupim beef ribs, pork loin boudin biltong alcatra jowl kevin picanha shoulder. Jerky meatloaf meatball pork loin prosciutto, landjaeger spare ribs ribeye pig pork belly pork chop andouille. Pork sirloin alcatra jowl kielbasa capicola landjaeger meatloaf. Hamburger doner shankle, brisket venison sausage jerky. Drumstick spare ribs biltong boudin.
-
+                <h1 className="waddup">Hello!</h1>
+                <p className="textile">My name is Timour and this is my portfolio website built in React.js.</p>
+                <p className='textile'>I am full-stack web developer currently seeking a dev position. After high school I decided to major in french as I am natively bilingual. I then joined the Marine Corps and received some of the best training in the world while simultaneously building some of the greatest and longest lasting friendships I've known. I eventually moved to Richmond, Virginia with a couple of high school friends. That's when I heard about George Washington University's coding bootcamp which piqued my interest as I had been exploring the world of web development on my own. This brings us back to the present in my search for a developer position!
 </p>
+<p className="textile">I'm always eager to learn so feel free to contact me for a job opportunity or even just to collaborate on a cool project!</p>
 </div>
         </Card>
       

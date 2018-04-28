@@ -3,3 +3,7 @@
     margin-bottom: 75px;
     display: inline-block;
 }
+.carousel-caption {
+    color: white;
+    background-color: black;
+}

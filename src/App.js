@@ -18,9 +18,9 @@ class App extends Component {
       <Nav />
       <Router>
         <Switch>
-        <Route exact path='/' component={Containment} />
-        <Route exact path='/Portfolio' component={Containmenttwo} />
-        <Route exact path='/Contact' component={Containmentthree} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Containment} />
+        <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Containmenttwo} />
+        <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Containmentthree} />
         </Switch>
       </Router>
       <Footer />

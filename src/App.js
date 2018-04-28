@@ -6,7 +6,9 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Containment from './components/Containment';
 import Containmenttwo from "./components/Containmenttwo";
+import Containmentthree from "./components/Containmentthree";
 import Side from './components/Side';
+import Contact from './components/Contact';
 import './App.css';
 class App extends Component {
   render() {
@@ -14,12 +16,13 @@ class App extends Component {
     return (
       <div>
       <Nav />
-      {/* <Router>
+      <Router>
         <Switch>
-        <Route exact path='/' component={Landing} />
+        <Route exact path='/' component={Containment} />
+        <Route exact path='/Portfolio' component={Containmenttwo} />
+        <Route exact path='/Contact' component={Containmentthree} />
         </Switch>
-      </Router> */}
-      <Containmenttwo />
+      </Router>
       <Footer />
       </div>
     );

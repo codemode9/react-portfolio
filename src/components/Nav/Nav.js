@@ -14,13 +14,13 @@ export default class Example extends React.Component {
           
             <Nav>
               <NavItem>
-                <NavLink href="/components/"><p className="makewhite">About</p></NavLink>
+                <NavLink href="/"><p className="makewhite">About</p></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><p className="makewhite">Portfolio</p></NavLink>
+                <NavLink href="/Portfolio"><p className="makewhite">Portfolio</p></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><p className="makewhite">Contact</p></NavLink>
+                <NavLink href="/Contact"><p className="makewhite">Contact</p></NavLink>
               </NavItem>
             </Nav>
           

@@ -1,8 +1,32 @@
 .leftlinks {
     text-align: center;
     color: black;
+    margin-left: 50%;
 }
 
 .rightlinks {
     color: black;
+}
+
+#wdywteLink {
+    color: orangered;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#dispensaryLink {
+    color: darkgreen;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#hothLink {
+    color: lightseagreen;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#portfolioLink {
+    text-decoration: underline;
+    font-weight: bold;
 }

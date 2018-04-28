@@ -13,14 +13,14 @@ const Containmenttwo = (props) => {
                 <Portfolio />
                     <Row>
                     <Col md='6'>
-                        <a href={'#'} className={'leftlinks'}>What do you want to eat?</a>
+                        <a href={'https://codemode9.github.io/WDYWTE/'} target={"_blank"} className={'leftlinks'} id={"wdywteLink"}>What do you want to eat?</a>
                             <br></br>
-                        <a href={'#'} className={'leftlinks'}>Dispensary App</a>
+                        <a href={'https://dispensary-app.herokuapp.com/'} target={"_blank"} className={'leftlinks'} id={'dispensaryLink'}>Dispensary App</a>
                     </Col>
                     <Col md='6'>
-                        <a href={'#'} className={'rightlinks'}>Hoth or Not</a>
+                        <a href={'https://hoth-or-not.herokuapp.com/'} target={"_blank"} className={'rightlinks'} id={'hothLink'}>Hoth or Not</a>
                             <br></br>
-                        <a href={'#'} className={'rightlinks'}>This Portfolio!</a>
+                        <a href={'/'} className={'rightlinks'} id={'portfolioLink'}>This Portfolio!</a>
                     </Col>
                     </Row>
               </Col>

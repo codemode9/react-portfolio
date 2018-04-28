@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
 .App {
   text-align: center;
 }
 
 body {
   background-image: url("./images/flowers.jpg");
+  font-family: 'Libre Franklin', sans-serif;
 };
 
 .App-logo {

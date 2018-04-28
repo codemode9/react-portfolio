@@ -14,4 +14,11 @@
 
 .makewhite {
     color: white;
+    margin-top: 25%;
+}
+
+.aboutit {
+    color: white;
+    margin-top: 20%;
+    padding: 10%;
 }

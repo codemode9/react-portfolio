@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import Contact from '../../components/Contact';
+import Form from '../../components/Form';
 import Side from '../../components/Side';
 import './Containmentthree.css';
 
@@ -10,7 +11,7 @@ const Containmentthree = (props) => {
       <Container>
           <Row>
               <Col md='9'>
-                <Contact />
+                <Form />
               </Col>
               <Col>
                 <Side />

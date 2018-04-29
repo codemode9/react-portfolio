@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://codemode9.github.io/react-portfolio/",
+  "homepage": "https://codemode9.github.io/react-portfolio/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.0",
@@ -13,7 +13,7 @@
     "reactstrap": "^5.0.0-beta.3"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

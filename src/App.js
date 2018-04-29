@@ -16,13 +16,13 @@ class App extends Component {
     return (
       <div>
       <Nav />
-      <Router>
+      <HashRouter>
         <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={Containment} />
         <Route exact path={process.env.PUBLIC_URL + '/react-portfolio/Portfolio'} component={Containmenttwo} />
         <Route exact path={process.env.PUBLIC_URL + 'Contact'} component={Containmentthree} />
         </Switch>
-      </Router>
+      </HashRouter>
       <Footer />
       </div>
     );

@@ -18,9 +18,9 @@ class App extends Component {
       <Nav />
       <HashRouter>
         <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/react-portfolio'} component={Containment} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Containment} />
         <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Containmenttwo} />
-        <Route exact path={process.env.PUBLIC_URL + 'Contact'} component={Containmentthree} />
+        <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Containmentthree} />
         </Switch>
       </HashRouter>
       <Footer />

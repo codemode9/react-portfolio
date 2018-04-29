@@ -14,13 +14,13 @@ export default class Example extends React.Component {
           
             <Nav className="aligner">
               <NavItem>
-                <NavLink href="/"><p className="aboutit">About</p></NavLink>
+                <Link to="/"><p className="aboutit">About</p></Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/Portfolio"><p className="makewhite">Portfolio</p></NavLink>
+                <Link to="/Portfolio"><p className="makewhite">Portfolio</p></Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/Contact"><p className="makewhite">Contact</p></NavLink>
+                <Link to="/Contact"><p className="makewhite">Contact</p></Link>
               </NavItem>
             </Nav>
           

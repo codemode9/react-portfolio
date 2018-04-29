@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { Component, Fragment } from 'react';
-import { HashRouter, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -16,13 +16,13 @@ class App extends Component {
     return (
       <div>
       <Nav />
-      <HashRouter>
-        <div>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={Containment} />
-        <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Containmenttwo} />
-        <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Containmentthree} />
-        </div>
-      </HashRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Switch>
+        <Route exact path='/' component={Containment} />
+        <Route exact path='/Portfolio' component={Containmenttwo} />
+        <Route exact path='/Contact' component={Containmentthree} />
+        </Switch>
+      </BrowserRouter>
       <Footer />
       </div>
     );

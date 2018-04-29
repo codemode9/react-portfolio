@@ -12,15 +12,15 @@ export default class Example extends React.Component {
           <NavbarBrand href="/" className="mr-auto"><h1 className="rapologize">Timour Basegmez</h1></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           
-            <Nav className="aligner">
+            <Nav>
               <NavItem>
-                <Link to="/"><p className="aboutit">About</p></Link>
+                <NavLink href="/"><p className="makewhite">About</p></NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/Portfolio"><p className="makewhite">Portfolio</p></Link>
+                <NavLink href="/Portfolio"><p className="makewhite">Portfolio</p></NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/Contact"><p className="makewhite">Contact</p></Link>
+                <NavLink href="/Contact"><p className="makewhite">Contact</p></NavLink>
               </NavItem>
             </Nav>
           

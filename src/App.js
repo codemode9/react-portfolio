@@ -16,13 +16,13 @@ class App extends Component {
     return (
       <div>
       <Nav />
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
         <Route exact path='/' component={Containment} />
         <Route exact path='/Portfolio' component={Containmenttwo} />
         <Route exact path='/Contact' component={Containmentthree} />
         </Switch>
-      </BrowserRouter>
+      </Router>
       <Footer />
       </div>
     );

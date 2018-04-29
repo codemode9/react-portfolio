@@ -20,7 +20,7 @@ const items = [
       caption: 'Hoth or Not'
     },
     {
-        src: '../../images/porto.png',
+        src: require('../../images/porto.png'),
         altText: 'Slide 4',
         caption: 'This Portfolio! (inception?)'
       }

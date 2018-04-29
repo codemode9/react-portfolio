@@ -17,11 +17,11 @@ class App extends Component {
       <div>
       <Nav />
       <HashRouter>
-        <Switch>
+        <div>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={Containment} />
         <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Containmenttwo} />
         <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Containmentthree} />
-        </Switch>
+        </div>
       </HashRouter>
       <Footer />
       </div>
